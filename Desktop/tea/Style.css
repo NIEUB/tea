@@ -1,0 +1,45 @@
+html{background-color: black;
+font-family: helvetica;
+font-size: 22px;
+color: seashell;
+opacity: 0.9;}
+
+.Header {display:flex;
+height: 69px;
+width: 100%;
+position: fixed;
+border-bottom: 1px solid seashell;
+
+}
+nav {text-align: right;
+flex-grow: 1;}
+.navi{color: seashell;}
+nav span {
+  display: inline-block;
+padding: 20px 10px;
+justify-content: flex-end;
+}
+
+.imghead {display: inline-block;
+position: absolute;
+justify-content: center;
+margin-top: 369px;
+width: 1200px;
+
+height: auto;
+text-align: center;
+background-color: black;}
+
+
+
+.image{display: flex;
+padding-top: 70px;
+justify-content: center;
+flex-wrap: wrap;
+}
+<!-- header and image -->
+
+.totm{
+  display: block;
+  text-align: center;
+  justify-content: space-around;}
